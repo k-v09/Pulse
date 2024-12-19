@@ -5,11 +5,11 @@ import java.util.Random;
 import javax.swing.*;
 
 public class BoidSim extends JPanel {
-    private static final int WIDTH = 800;
-    private static final int HEIGHT = 600;
+    private static final int WIDTH = 1200;
+    private static final int HEIGHT = 800;
     private static final int NUM_BOIDS = 100;
     private static final double MAX_SPEED = 4.0;
-    private static final double SEPARATION_RADIUS = 35.0;
+    private static final double SEPARATION_RADIUS = 40.0;
     private static final double ALIGNMENT_RADIUS = 60.0;
     private static final double COHESION_RADIUS = 60.0;
     private static final double SEPARATION_FACTOR = 3;
